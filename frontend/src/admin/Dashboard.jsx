@@ -66,7 +66,7 @@ function Dashboard() {
 						</nav>
 					</div>
 				</aside>
-				<div className="flex h-screen items-center justify-center ml-[40%]">Welcome!!!</div>
+				<div className="flex h-screen items-center justify-center ml-[40%] text-5xl">Welcome!!!</div>
 			</div>
 		</>
 	);

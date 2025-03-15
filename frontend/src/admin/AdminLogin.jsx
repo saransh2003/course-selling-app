@@ -34,7 +34,7 @@ function AdminLogin() {
 			console.log("Admin Login successful: ", response.data);
 			toast.success(response.data.message);
 			localStorage.setItem("admin", JSON.stringify(response.data));
-			navigate("/admin");
+			navigate("/admin/dashboard");
 		} catch (error) {
 			if (error.response) {
 				setErrorMessage(error.response.data.errors || error.response.data.message || "Admin Login failed!!!");
